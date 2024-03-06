@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+main {
+  max-width: 500px;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+input, button {
+  padding: 10px 20px;
+}
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+  
+.Canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(
+    120deg, #fdfbfb 0%, #ebedee 100%);
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: #4644f0;
+}
+  
+.draw-area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #808080;
+  position: relative;
+  background-color: white;
+}
+  
+.Menu {
+  width: 650px;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #a3a3a32d;
+  margin: auto;
+  margin-top: 10px;
+}
